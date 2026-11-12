@@ -1,0 +1,48 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="72" y1="34" x2="1512" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101816"/>
+      <stop offset="1" stop-color="#10131A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="116" y1="64" x2="1485" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B6F3D0"/>
+      <stop offset="0.52" stop-color="#60D6A2"/>
+      <stop offset="1" stop-color="#9ABCFB"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(450 210 -170 365 1270 74)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3ACB91" stop-opacity=".23"/>
+      <stop offset="1" stop-color="#3ACB91" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" stroke="#B8D3C6" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="520" rx="30" fill="url(#bg)"/>
+  <rect width="1600" height="520" rx="30" fill="url(#grid)"/>
+  <rect width="1600" height="520" rx="30" fill="url(#glow)"/>
+  <path d="M1000 0C1115 87 1150 142 1252 167C1367 196 1470 160 1600 85V520H1000V0Z" fill="#14251F" fill-opacity=".46"/>
+  <path d="M1020 520C1108 424 1166 389 1250 386C1372 382 1440 450 1600 330" stroke="url(#accent)" stroke-opacity=".5" stroke-width="2"/>
+  <path d="M1042 0C1131 91 1198 117 1284 112C1381 106 1469 59 1600 16" stroke="url(#accent)" stroke-opacity=".32" stroke-width="2"/>
+  <g opacity=".7">
+    <circle cx="1247" cy="251" r="128" stroke="#8AE0B5" stroke-opacity=".18"/>
+    <circle cx="1247" cy="251" r="94" stroke="#8AE0B5" stroke-opacity=".28"/>
+    <circle cx="1247" cy="251" r="59" stroke="#8AE0B5" stroke-opacity=".4"/>
+    <path d="M1247 123V379M1119 251H1375M1157 161L1337 341M1337 161L1157 341" stroke="#8AE0B5" stroke-opacity=".16"/>
+  </g>
+  <g transform="translate(1130 193)">
+    <rect width="232" height="116" rx="22" fill="#182B25" stroke="#8EE1B4" stroke-opacity=".64"/>
+    <rect x="18" y="18" width="40" height="40" rx="12" fill="#B6F3D0"/>
+    <path d="M29 31.5C30.8 28.9 33.8 27.8 37 28.4C40.4 29 43.2 31.8 43.8 35.1C44.4 38.1 43.5 40.9 41.2 43L44.1 47L38.7 45.5C34.8 46.9 30.7 45.5 28.4 42.2C26.1 38.9 26.3 34.8 29 31.5Z" fill="#13251E"/>
+    <path d="M77 31H207M77 47H175M19 78H213" stroke="#D7F5E4" stroke-opacity=".8" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="201" cy="79" r="5" fill="#76E2AC"/>
+  </g>
+  <g fill="#B6F3D0">
+    <circle cx="1080" cy="115" r="3"/><circle cx="1410" cy="148" r="3"/><circle cx="1437" cy="350" r="4"/><circle cx="1094" cy="403" r="3"/>
+  </g>
+  <text x="112" y="112" fill="#A7EBC5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">M I L O D E V  /  ENGINEERING SKILL</text>
+  <text x="108" y="232" fill="#F2F7F4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="66" font-weight="750" letter-spacing="-2">WhatsApp Bot</text>
+  <text x="108" y="308" fill="#F2F7F4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="66" font-weight="750" letter-spacing="-2">Builder</text>
+  <rect x="110" y="354" width="54" height="4" rx="2" fill="url(#accent)"/>
+  <text x="110" y="406" fill="#BDCCC4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="450">A practical AI skill for clean, tested Baileys projects.</text>
+  <text x="110" y="463" fill="#7E988B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="2">PAIRING  ·  SESSIONS  ·  CONNECTIONS  ·  DEBUGGING</text>
+</svg>
