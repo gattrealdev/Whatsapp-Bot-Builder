@@ -1,0 +1,35 @@
+<svg width="1400" height="650" viewBox="0 0 1400 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="line" x1="180" y1="90" x2="1210" y2="570" gradientUnits="userSpaceOnUse"><stop stop-color="#A8EBC6"/><stop offset="1" stop-color="#83A9F3"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#101816" flood-opacity=".08"/></filter>
+ </defs>
+ <rect x="1" y="1" width="1398" height="648" rx="24" fill="#F7FAF8" stroke="#DFEAE3"/>
+ <text x="64" y="72" fill="#183328" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="700">Implementation workflow</text>
+ <text x="64" y="105" fill="#718278" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">A small, verifiable path from environment check to a tested connection.</text>
+ <g stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M700 184V222"/><path d="M700 286V324"/><path d="M700 388V426"/><path d="M700 490V527"/>
+  <path d="M691 213L700 222L709 213"/><path d="M691 315L700 324L709 315"/><path d="M691 417L700 426L709 417"/><path d="M691 518L700 527L709 518"/>
+ </g>
+ <g filter="url(#shadow)">
+  <rect x="470" y="130" width="460" height="54" rx="16" fill="#FFFFFF" stroke="#D9E7DF"/>
+  <rect x="470" y="232" width="460" height="54" rx="16" fill="#FFFFFF" stroke="#D9E7DF"/>
+  <rect x="470" y="334" width="460" height="54" rx="16" fill="#FFFFFF" stroke="#D9E7DF"/>
+  <rect x="470" y="436" width="460" height="54" rx="16" fill="#FFFFFF" stroke="#D9E7DF"/>
+  <rect x="470" y="538" width="460" height="54" rx="16" fill="#EAF8F0" stroke="#B7E5C9"/>
+ </g>
+ <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+  <text x="700" y="165" fill="#203C30" font-size="18" font-weight="700">1. Inspect environment</text>
+  <text x="700" y="267" fill="#203C30" font-size="18" font-weight="700">2. Verify package and API</text>
+  <text x="700" y="369" fill="#203C30" font-size="18" font-weight="700">3. Build the smallest solution</text>
+  <text x="700" y="471" fill="#203C30" font-size="18" font-weight="700">4. Run, inspect and fix</text>
+  <text x="700" y="573" fill="#1C6741" font-size="18" font-weight="700">5. Verify pairing and persistence</text>
+ </g>
+ <g fill="#7C9B8B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">
+  <text x="970" y="164">NODE / NPM / OS</text>
+  <text x="970" y="266">VERSION / TYPES / DOCS</text>
+  <text x="970" y="368">FEW FILES / FEW DEPS</text>
+  <text x="970" y="470">REAL OUTPUT / TARGETED FIX</text>
+  <text x="970" y="572">NO FALSE SUCCESS CLAIMS</text>
+ </g>
+ <g fill="#B9EBCB"><circle cx="430" cy="157" r="5"/><circle cx="430" cy="259" r="5"/><circle cx="430" cy="361" r="5"/><circle cx="430" cy="463" r="5"/><circle cx="430" cy="565" r="5"/></g>
+</svg>
